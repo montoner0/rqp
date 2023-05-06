@@ -1,0 +1,36 @@
+.Language=English,English
+
+"Really Quick Player"
+
+""
+"BASS initialization failed"
+"External player execute failed"
+
+" Ext. Player "
+
+"'Play' player parameters"
+"'Add to playlist' player parameters"
+"Parameters (%s - file name):"
+
+"Path:"
+"Player full path"
+
+"Space: default item"
+
+" Set 'adding' parameters"
+" Set 'playing' parameters"
+" Set player path"
+
+" Play "
+" Add "
+
+" Demo "
+" Auto-Next "
+"   Loop    "
+"&Ok"
+
+"File can't be opened or not supported"
+
+"Current file description"
+"Descriptions file update error"
+"Searching..."

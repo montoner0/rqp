@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rqpf", "rqpf.vcxproj", "{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug3|Win32 = Debug3|Win32
+		Debug3|x64 = Debug3|x64
+		release static3|Win32 = release static3|Win32
+		release static3|x64 = release static3|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.Debug3|Win32.ActiveCfg = Debug3|Win32
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.Debug3|Win32.Build.0 = Debug3|Win32
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.Debug3|x64.ActiveCfg = Debug3|x64
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.Debug3|x64.Build.0 = Debug3|x64
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.release static3|Win32.ActiveCfg = release static3|Win32
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.release static3|Win32.Build.0 = release static3|Win32
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.release static3|x64.ActiveCfg = release static3|x64
+		{9AA2BF8A-2FF8-4572-8DF8-840D99575CE7}.release static3|x64.Build.0 = release static3|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C08EAF75-3D5E-44F3-BFC5-2B4D44AF4F43}
+	EndGlobalSection
+EndGlobal

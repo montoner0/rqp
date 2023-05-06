@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<farconfig version="3.0.4400">
+    <pluginsconfig>
+        <plugin guid="EAFA2D4F-37B7-4989-8481-C64DA477501F">
+            <hierarchicalconfig>
+                <key name="EAFA2D4F-37B7-4989-8481-C64DA477501F" description="RQP">
+                    <value name="VolSliderChars" type="text" value="▂▃▄▅▆▇█▁" />
+                    <value name="ButtonsChars" type="text" value="" />
+                    <!--value name="PanSliderChars" type="text" value="L▄▙▆▟R" /-->
+                    <value name="PanSliderChars" type="text" value="L━┻╋┻R" />
+                    <value name="PosSliderChars" type="text" value=" ▂▄▁ " />
+                </key>
+            </hierarchicalconfig>
+        </plugin>
+    </pluginsconfig>
+</farconfig>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<farconfig version="3.0.4400">
+    <pluginsconfig>
+        <plugin guid="EAFA2D4F-37B7-4989-8481-C64DA477501F">
+            <hierarchicalconfig>
+                <key name="EAFA2D4F-37B7-4989-8481-C64DA477501F" description="RQP">
+                    <value name="AutoLoop" type="qword" value="0000000000000000" />
+                    <value name="Autonext" type="qword" value="0000000000000000" />
+                    <value name="ButtonsChars" type="text" value="&lt;►&gt;■║" />
+                    <value name="Colors" type="hex" value="8F,06,6E,8F,78,02,8B,87,8A,8E,87,8F,8F,8F" />
+                    <value name="DemoMode" type="qword" value="0000000000000000" />
+                    <value name="DescriptionFile" type="text" value="descript.ion" />
+                    <value name="Dlgpos" type="qword" value="FFFFFFFFFFFFFFFF" />
+                    <value name="ExtPlayerAddToPlaylist" type="text" value="" />
+                    <value name="ExtPlayerDefAction" type="qword" value="FFFFFFFFFFFFFFFF" />
+                    <value name="ExtPlayerPath" type="text" value="" />
+                    <value name="ExtPlayerPlay" type="text" value="" />
+                    <value name="FirstRun" type="qword" value="0000000000000000" />
+                    <value name="Loop" type="qword" value="0000000000000000" />
+                    <value name="Maximized" type="qword" value="0000000000000000" />
+                    <value name="PanSliderChars" type="text" value="L=&lt;C&gt;R" />
+                    <value name="PosSliderChars" type="text" value="[=|-]" />
+                    <value name="RemainTime" type="qword" value="0000000000000001" />
+                    <value name="ShowHours" type="qword" value="0000000000000001" />
+                    <value name="Showms" type="qword" value="0000000000000001" />
+                    <value name="TagsTemplate" type="text" value="%IFV1(%ARTI,%ARTI)%IFV1(%TITL, - %TITL)%IFV1(%ALBM, - %ALBM)" />
+                    <value name="VisibleLinesMask" type="qword" value="00000000000000FF" />
+                    <value name="VolSliderChars" type="text" value=".:|_" />
+                    <value name="Volume" type="qword" value="0000000000000008" />
+                    <value name="VolumeBars" type="qword" value="0000000000000001" />
+                </key>
+            </hierarchicalconfig>
+        </plugin>
+    </pluginsconfig>
+</farconfig>

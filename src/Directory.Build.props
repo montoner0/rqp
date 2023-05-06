@@ -1,0 +1,18 @@
+﻿<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Platform)'=='x64'">
+    <BassLibDir>..\lib\bass\c\x64</BassLibDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Platform)'=='Win32'">
+    <BassLibDir>..\lib\bass\c</BassLibDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Debug3' or '$(Configuration)'=='release static3'">
+    <FarIncludeDir>..\lib\farapi3</FarIncludeDir>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <BassIncludeDir>..\lib\bass\c</BassIncludeDir>
+    <PluginIncludeDirectories>$(BassIncludeDir);$(FarIncludeDir)</PluginIncludeDirectories>
+    <PluginDependencies>bass.lib;shlwapi.lib;tags.lib;$(AdditionalDependencies)</PluginDependencies>
+    <PluginLibraryDirectories>$(BassLibDir)</PluginLibraryDirectories>
+  </PropertyGroup>
+</Project>

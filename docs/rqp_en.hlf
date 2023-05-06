@@ -1,0 +1,140 @@
+.Language=English,English (English)
+.PluginContents=Really Quick Player
+
+@Contents
+$^#Really Quick Player - Content#
+
+  #*# ~About~@AboutPlugin@
+
+  #*# ~Usage~@Usage@
+
+  #*# ~Controls~@Controls@
+
+  #*# ~Options~@Configure@
+
+  #*# ~Using an external player~@ExtPlayer@
+
+  I'm not very good at the English grammar so if you've spotted an error please don't hesitate to contact me.
+
+@AboutPlugin
+$ #About#
+
+   #Really Quick Player (RQP)# is a simple "audio player" plugin for Far Manager which helps to pre-listen and sort sound files.
+
+   Its main goal is a work with sound files as files and not being another multipurpose player. That's why it doesn't have a playlist, equaliser and any other redundant functionality. But it has the following features which could really help with sorting of audio files:
+   - (de)select files on the Far's panel during a playback
+   - demo-mode with a partial tracks playback
+   - add files to an external playlist or playback them with an external player
+
+    See ~"Usage"~@Usage@ section for additional information about the plugin capabilities.
+
+ ~Back to the contents~@Contents@
+
+@Usage
+$ #Usage#
+
+    #Launch#
+    You can launch the plugin either from a Far's plugins menu or a command line using #rqp:#
+prefix. Cursor should be positioned on an audio file when runing from the plugins menu and for
+the command line a file name (or stream URL) should be passed as a parameter.
+Playback will start automatially.
+
+    In case of issues with a playback there are two possible scenarios:
+    - a file is opened through the command line or the plugins menu: error message appears;
+    - a file is opened within the plugin (e. g. next/previous button): error is supressed and the file skipped.
+
+    #Usage#
+    If you've seen a UI for any audio player then you shouldn't have any problems. You can click
+on buttons and sliders with mouse or use keyboard. See ~"Controls"~@Controls@ topic for details.
+    Plugin can work not only with a real file panel but also with any panels which have full
+paths to a real files (like the temporary panel). Also completely virtual panels are supported (e.g.
+archives) with some limitations.
+    To use it with macros the plugin dialog has GUID {57C8067C-CB36-49B7-8E06-60AF0150FD4A}.
+
+ ~Back to the contents~@Contents@
+
+@Controls
+$ #Controls#
+
+   Key                Action
+
+   #Z#, #PgUp#            Previous file.
+
+   #X#, #Space#, #Num 5#    Playback/Pause.
+
+   #C#, #PgDn#            Next file.
+
+   #V#                  Stop playback.
+
+   #A#                  Enable Auto-next file (or Loop) function.
+                      Click on the button #Auto-Next# (#Loop#) works in the same way.
+
+   #Ctrl+A#             Toggle Auto-next/Loop modes.
+                      Right click on the button #Auto-Next# (#Loop#) works in the same way.
+
+   #B#                  Toggle the sound volume bars visibility. Clicking on it will do the same.
+
+   #D#                  Toggle demo-mode. In this mode a track will be evenly divided on three
+                      parts and from the beginning of every part 20 seconds will be played.
+                      Clicking on the button #Demo# will do the same.
+
+   #Ctrl+D#             Change time skip from the beginning of a track in the demo-mode
+                      Right clicking on the button #Demo# will do the same.
+
+   #M#                  Toggle a maximized mode. In the maximized mode the dialog will be stretched
+                      to the FAR window's width. You can also click arrows #[]# in the right top
+                      corner.
+
+   #Num +#              Toggle a mini-mode (see readme.md).
+
+   #P#                  Default action for an external player. See ~here~@ExtPlayer@ for details.
+
+   #T#                  Toggle showing elapsed/remaining time. Clicking on the time will do the same.
+
+   #Ctrl+T#             Show/hide milliseconds/hours. Right click on the time will do the same.
+
+   #N#                  Enter description for the current file. By default descriptions saved in
+                      #descript.ion# file in the current folder. The file name and path can be changed
+                      in a plugin settings database (see readme.md).
+
+   #Ctrl+N#             Show a description instead of a tag.
+
+   #Insert#             Toggle selection of the current file on the panel.
+
+   #Left#, #Right#,       Change time position in the track. One press moves on one slider position.
+   #Ctrl+Mouse wheel#   If you need more precise positioning then you can hold #Shift# (moves 10x less)
+                      or #Alt# (100x less).
+
+   #Up#, #Down#,          Sound volume.
+   #Mouse wheel#
+
+   #Shift+Mouse wheel#  Change panning.
+
+ ~Back to the contents~@Contents@
+
+@Configure
+$ #Options#
+
+    The current player's state (window position, volume etc.) is saved/restored automatically
+when the player closed/opened.
+    Some options (especially UI elements) can only be changed through the plugin's settings database.
+See readme.md for details.
+    You can also configure options for an external player. See ~here~@ExtPlayer@ for details.
+
+ ~Back to the contents~@Contents@
+
+@ExtPlayer
+$ #Using an external player#
+
+    There is a possibility to run an external player (in fact - any application) with specified
+parameters and the current file name. E. g. you can easily add current file to a playlist of
+the external player or start a playback.
+    Button #"Ext. player"# is responsible for this. Clicking on it first time opens
+a menu with settings for a path to player and its parameters for addition and playback. The file name
+in parameters should be specified as #%s#. Environment variables are supported in the player's path and
+parameters.
+   In the menu you can select with #Space# a default action for the button #"Ext. player"# which will be
+used for the left click (the button's name will show the name of action). To open the configuration menu
+in this case #right# click on the button.
+
+ ~Back to the contents~@Contents@
