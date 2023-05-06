@@ -1,0 +1,1 @@
+﻿Put BASS and Tags library files here
